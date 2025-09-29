@@ -13,7 +13,7 @@ function App(): JSX.Element {
   const [] = useState<number>(0);
 
   return (
-    <Router>
+    <Router basename="/Portfolio">
       {/* Navbar is always visible */}
       <Navbar />
 
