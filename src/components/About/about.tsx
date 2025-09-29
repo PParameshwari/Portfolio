@@ -2,12 +2,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import "../../styles/About/about.scss";
 import StarBorderPurple500Icon from "@mui/icons-material/StarBorderPurple500";
-import Footer from "../Footer/footer";
+
 
 interface Experience {
   role: string;
   company: string;
-  description: string;
+  description: string[];
 }
 
 const AboutSection: React.FC = () => {

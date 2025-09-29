@@ -1,7 +1,6 @@
 // import React from "react";
 import { Button } from "@mui/material";
-import '../../styles/Home/home.scss'
-import Footer from "../Footer/footer";
+import '../../styles/Home/home.scss';
 import Contact from "../Contact/contact";
 import AboutSection from "../About/about";
 import ProjectSection from "../Project/project";

@@ -4,7 +4,6 @@ import AddLocationOutlinedIcon from "@mui/icons-material/AddLocationOutlined";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import MarkEmailUnreadOutlinedIcon from "@mui/icons-material/MarkEmailUnreadOutlined";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import Footer from "../Footer/footer";
 
 const Contact = () => {
   return (

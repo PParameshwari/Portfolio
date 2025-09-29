@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "../../styles/project/project.scss";
 import img from '../../assets/Project/1bi0.png';
-import Footer from "../Footer/footer";
 import img1 from '../../assets/Project/illampirai.png';
 
 const projects = [
@@ -33,8 +32,12 @@ const projects = [
     link: "https://ilampiraihearingsolutions.com/"
   }
 ];
+interface ProjectDescriptionProps {
+  description: string[];
+}
 
-const ProjectDescription = ({ description }) => {
+const ProjectDescription: React.FC<ProjectDescriptionProps> = ({ description }) => {
+
   const [visibleCount, setVisibleCount] = useState(0);
 
   useEffect(() => {

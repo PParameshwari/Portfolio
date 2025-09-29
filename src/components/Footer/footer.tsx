@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/Footer/footer.scss";
 
 // Import your social icons (you can also use react-icons or MUI icons)
-import { Instagram, LinkedIn, GitHub } from "@mui/icons-material";
+import { LinkedIn, GitHub } from "@mui/icons-material";
 import { NavLink } from "react-router-dom";
 
 const Footer: React.FC = () => {
