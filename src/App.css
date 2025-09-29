@@ -1,0 +1,27 @@
+/* Root container */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Card styling */
+.card {
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+/* Text links / info */
+.read-the-docs {
+  color: #888;
+  text-decoration: none;
+}
+
+/* Optional: reset body & html to prevent horizontal scroll */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
