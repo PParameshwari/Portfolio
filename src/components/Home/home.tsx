@@ -18,17 +18,27 @@ const Home = () => {
                         "Hey, I’m Parameshwari — a Front-End Developer who loves turning ideas into interactive designs."
                     </p>
                     <div className="nav-buttons">
-                       <NavLink to="/contact"> <Button variant="contained" className="get-in-touch">Get In Touch</Button></NavLink>
-                      <NavLink to="/projects">  <Button variant="contained" className="browse-projects">Browse Projects</Button></NavLink>
-                        <Button variant="contained" className="resume">Resume Download</Button>
+                        <NavLink to="/contact"> <Button variant="contained" className="get-in-touch">Get In Touch</Button></NavLink>
+                        <NavLink to="/projects">  <Button variant="contained" className="browse-projects">Browse Projects</Button></NavLink>
+                        <a
+                            href="/Portfolio/resume.pdf"
+                            download="Parameshwari-FrontEnd-Developer.pdf"
+                            style={{ textDecoration: "none" }}
+                        >
+                            <Button variant="contained" className="resume">
+                                Resume Download
+                            </Button>
+                        </a>
+
+
                     </div>
                 </div>
             </div>
-       
+
             <ProjectSection />
             <AboutSection />
             <Contact />
-    
+
         </section>
 
     )
